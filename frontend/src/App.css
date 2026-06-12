@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.hero {
+  background: url('./assets/restaurant.jpg') center/cover no-repeat;
+  color: white;
+
+}
+
+.about { background-color: #ff0909; }
+.menu { background-color: #f89900; }
+.news { background-color: #0090f7; }
+.reservations { background-color: #6d1331; }
+.contact { background-color: #4300a8; }
+
