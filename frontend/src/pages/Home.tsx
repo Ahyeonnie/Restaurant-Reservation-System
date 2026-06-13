@@ -5,7 +5,7 @@ export default function Home() {
       
     
       {/* Hero / Front Section */}
-      <section id="hero" className="hero w-full min-h-[80vh] p-8 flex flex-col items-center justify-center ">
+      <section id="hero" className="hero w-full min-h-[80vh] p-8 font-bold flex flex-col items-center justify-center ">
         <h1 className=" text-4xl">Welcome to Our Restaurant</h1>
         <p>Enjoy the best dining experience with us.</p>
       </section>
@@ -35,9 +35,9 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="w-full min-h-screen p-16 ">
+      <section id="contact" className="bg-green-500 w-full min-h-screen p-16 ">
         <h2>Contact Us</h2>
-        <p>Get in touch with us today.</p>
+        <p className="text-green-500">Get in touch with us today.</p>
       </section>
     </div>
   );

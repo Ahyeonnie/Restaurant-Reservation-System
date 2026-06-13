@@ -6,7 +6,8 @@ import Menu from './pages/Menu';
 import Reservations from './pages/Reservations';
 import Contact from './pages/Contact';
 import MainLayout from './layouts/Mainlayout';
-import './App.css'
+import './index.css';
+
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/reservations" element={<MainLayout><Reservations /></MainLayout>} />
         <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} />
       </Routes>
+      
     </Router>
   )
 }
