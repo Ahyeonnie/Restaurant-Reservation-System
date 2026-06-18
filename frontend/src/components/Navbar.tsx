@@ -39,7 +39,7 @@ export default function Navbar() {
           <img 
             src={hamburgerIcon} 
             alt="Menu" 
-            className="h-[38px] w-[38px] object-contain block"
+            className="h-9.5 w-9.5 object-contain block"
           />
         </button>
       </div> 
